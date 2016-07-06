@@ -5,7 +5,7 @@ Slovenski prevod spletne trgovine za WordPress: http://www.woothemes.com/woocomm
 
 Kako uporabiti?
 ---------------
-Za delovanje prevoda se mora datoteka woocommerce-sl_SI.mo nahajati v mapi /wp-content/plugins/woocommerce/languages/.
+Glede na dokumentacijo WooCommerce (https://docs.woothemes.com/document/woocommerce-localization/), se mora datoteka woocommerce-sl_SI.mo nahajati v mapi /wp-content/languages/woocommerce/
 
 Kako pomagati?
 --------------
