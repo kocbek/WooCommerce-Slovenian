@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
 "POT-Creation-Date: 2016-07-05 08:45+0200\n"
-"PO-Revision-Date: 2016-07-05 15:10+0200\n"
+"PO-Revision-Date: 2016-10-17 15:59+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: sl\n"
@@ -978,7 +978,7 @@ msgstr "Združeno Kraljestvo (UK)"
 
 #: i18n/countries.php:252
 msgid "United States (US)"
-msgstr "Združene Države Amerike (US)"
+msgstr "Združene Države Amerike (ZDA)"
 
 #: i18n/countries.php:253
 msgid "United States (US) Minor Outlying Islands"
@@ -4993,7 +4993,7 @@ msgstr "WooCommerce"
 
 #: includes/abstracts/abstract-wc-order.php:2366
 msgid "Unable to update order from %1$s to %2$s."
-msgstr ""
+msgstr "Posodobitev naročila z %1$s na %2$s ni uspela."
 
 #: includes/abstracts/abstract-wc-order.php:2375
 msgid "Order status changed from %1$s to %2$s."
@@ -5082,19 +5082,19 @@ msgstr "od 5"
 
 #: includes/abstracts/abstract-wc-rest-controller.php:96
 msgid "Unable to accept more than %s items for this request."
-msgstr ""
+msgstr "Ni mogoče sprejeti več kot $s izdelkov za to povpraševanje."
 
 #: includes/abstracts/abstract-wc-rest-controller.php:200
 msgid "List of created resources."
-msgstr ""
+msgstr "Seznam ustvarjenih virov."
 
 #: includes/abstracts/abstract-wc-rest-controller.php:205
 msgid "List of updated resources."
-msgstr ""
+msgstr "Seznam posodobljenih virov."
 
 #: includes/abstracts/abstract-wc-rest-controller.php:210
 msgid "List of delete resources."
-msgstr ""
+msgstr "Seznam izbrisanih virov."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:53
 #: includes/abstracts/abstract-wc-rest-terms-controller.php:108
@@ -5117,7 +5117,7 @@ msgstr "Oprostite, ne morete pregledati seznama virov."
 #: includes/api/class-wc-rest-tax-classes-controller.php:97
 #: includes/api/class-wc-rest-taxes-controller.php:121
 msgid "Sorry, you are not allowed to create resources."
-msgstr ""
+msgstr "Oprostite, nimate dovoljenja za ustvarjanje virov."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:83
 #: includes/abstracts/abstract-wc-rest-terms-controller.php:146
@@ -5134,7 +5134,7 @@ msgstr "Oprostite, ne morete videti tega vira."
 #: includes/api/class-wc-rest-customers-controller.php:164
 #: includes/api/class-wc-rest-taxes-controller.php:149
 msgid "Sorry, you are not allowed to edit this resource."
-msgstr ""
+msgstr "Oprostite, nimate dovoljenja za urejanje virov."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:115
 #: includes/api/class-wc-rest-customers-controller.php:180
@@ -5150,7 +5150,7 @@ msgstr "Oprostite,  nimate dovoljenja za izbris tega vira."
 #: includes/api/class-wc-rest-product-attributes-controller.php:200
 #: includes/api/class-wc-rest-taxes-controller.php:177
 msgid "Sorry, you are not allowed to manipule this resource."
-msgstr ""
+msgstr "Oprostite, nimate dovoljenja za spreminjanje tega vira."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:155
 msgid "Invalid id."
@@ -5197,59 +5197,65 @@ msgstr "%s ni mogoče izbrisati."
 msgid ""
 "Limit response to resources published after a given ISO8601 compliant date."
 msgstr ""
+"Omejite odgovor do virov, objavljenih po danem datumu, ki izpolnjuje zahteve "
+"ISO 8601."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:615
 msgid ""
 "Limit response to resources published before a given ISO8601 compliant date."
 msgstr ""
+"Omejite odgovor do virov, objavljenih pred določenim datumom, ki izpolnjuje "
+"zahteve ISO 8601."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:621
 #: includes/abstracts/abstract-wc-rest-terms-controller.php:682
 #: includes/api/class-wc-rest-customers-controller.php:840
 #: includes/api/class-wc-rest-taxes-controller.php:650
 msgid "Ensure result set excludes specific ids."
-msgstr ""
+msgstr "Poskrbite, da niz rezultatov izključuje določene ID-je."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:627
 #: includes/abstracts/abstract-wc-rest-terms-controller.php:688
 #: includes/api/class-wc-rest-customers-controller.php:846
 #: includes/api/class-wc-rest-taxes-controller.php:656
 msgid "Limit result set to specific ids."
-msgstr ""
+msgstr "Omejite rezultat na določene ID-je."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:633
 #: includes/abstracts/abstract-wc-rest-terms-controller.php:695
 #: includes/api/class-wc-rest-customers-controller.php:852
 #: includes/api/class-wc-rest-taxes-controller.php:662
 msgid "Offset the result set by a specific number of items."
-msgstr ""
+msgstr "Zamaknite rezultat za določeno število predmetov."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:639
 #: includes/abstracts/abstract-wc-rest-terms-controller.php:702
 #: includes/api/class-wc-rest-customers-controller.php:859
 #: includes/api/class-wc-rest-taxes-controller.php:669
 msgid "Order sort attribute ascending or descending."
-msgstr ""
+msgstr "Razvrstite lastnosti naraščajoče ali padajoče."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:646
 #: includes/api/class-wc-rest-customers-controller.php:867
 #: includes/api/class-wc-rest-taxes-controller.php:677
 msgid "Sort collection by object attribute."
-msgstr ""
+msgstr "Razvrstite zbirko po lastnosti predmeta."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:662
 msgid "Limit result set to those of particular parent ids."
-msgstr ""
+msgstr "Omejite rezultate na tiste s posameznimi matičnimi ID-ji."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:668
 msgid "Limit result set to all items except those of a particular parent id."
-msgstr ""
+msgstr "Omejite rezultate na vse razen tistik s posebnimi matičnimi ID-ji."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:676
 msgid ""
 "Use WP Query arguments to modify the response; private query vars require "
 "appropriate authorization."
 msgstr ""
+"Uporabite  WP Poizvedbe za spreminjanje odziva; Zasebne poizvedbene "
+"spremenljivke potrebujejo ustrezno dovoljenje."
 
 #: includes/abstracts/abstract-wc-rest-terms-controller.php:77
 #: includes/api/class-wc-rest-customers-controller.php:91
@@ -5260,7 +5266,7 @@ msgstr ""
 #: includes/api/class-wc-rest-taxes-controller.php:81
 #: includes/api/class-wc-rest-webhooks-controller.php:105
 msgid "Required to be true, as resource does not support trashing."
-msgstr ""
+msgstr "Mora biti res, ker vir ne podpira uničenja."
 
 #: includes/abstracts/abstract-wc-rest-terms-controller.php:127
 #: includes/api/class-wc-rest-product-attributes-controller.php:132
@@ -5293,7 +5299,7 @@ msgstr "Vir ne obstaja."
 #: includes/abstracts/abstract-wc-rest-terms-controller.php:367
 #: includes/abstracts/abstract-wc-rest-terms-controller.php:469
 msgid "Can not set resource parent, taxonomy is not hierarchical."
-msgstr ""
+msgstr "Ni mogoče določit starša vira, saj taksonomija ni hierarhična."
 
 #: includes/abstracts/abstract-wc-rest-terms-controller.php:373
 #: includes/abstracts/abstract-wc-rest-terms-controller.php:475
@@ -5303,7 +5309,7 @@ msgstr "Vir ne obstaja."
 #: includes/abstracts/abstract-wc-rest-terms-controller.php:525
 #: includes/api/class-wc-rest-product-attributes-controller.php:406
 msgid "Resource does not support trashing."
-msgstr ""
+msgstr "Vir ne podpira uničenja."
 
 #: includes/abstracts/abstract-wc-rest-terms-controller.php:534
 #: includes/api/class-wc-rest-customers-controller.php:453
@@ -5314,23 +5320,23 @@ msgstr "Tega ni mogoče izbrisati."
 
 #: includes/abstracts/abstract-wc-rest-terms-controller.php:713
 msgid "Sort collection by resource attribute."
-msgstr ""
+msgstr "Razvrsti zbirko po lastnosti vira."
 
 #: includes/abstracts/abstract-wc-rest-terms-controller.php:729
 msgid "Whether to hide resources not assigned to any products."
-msgstr ""
+msgstr "Naj se skrije vire, ki niso dodeljeni nobenemu izdelku."
 
 #: includes/abstracts/abstract-wc-rest-terms-controller.php:736
 msgid "Limit result set to resources assigned to a specific parent."
-msgstr ""
+msgstr "Omejitev rezultatov na vire,  dodeljene posebnim staršem."
 
 #: includes/abstracts/abstract-wc-rest-terms-controller.php:743
 msgid "Limit result set to resources assigned to a specific product."
-msgstr ""
+msgstr "Omejitev rezultatov na vire, dodeljene izdelku."
 
 #: includes/abstracts/abstract-wc-rest-terms-controller.php:749
 msgid "Limit result set to resources with a specific slug."
-msgstr ""
+msgstr "Omejitev rezultatov na vire z posebnim delom naslova."
 
 #: includes/abstracts/abstract-wc-settings-api.php:735
 #: includes/admin/class-wc-admin-settings.php:605
@@ -5351,15 +5357,15 @@ msgstr "Izdelki"
 
 #: includes/admin/class-wc-admin-addons.php:105
 msgid "Need a fresh look? Try Storefront child themes"
-msgstr ""
+msgstr "Reklama za Storefront otroško temo."
 
 #: includes/admin/class-wc-admin-addons.php:109
 msgid "View more Storefront child themes"
-msgstr ""
+msgstr "Poglej si več Storefront otroških tem."
 
 #: includes/admin/class-wc-admin-addons.php:114
 msgid "Need a theme? Try Storefront"
-msgstr ""
+msgstr "Potrebuješ temo? Poizkusi Storefront"
 
 #: includes/admin/class-wc-admin-api-keys-table-list.php:26
 msgid "key"
@@ -5367,7 +5373,7 @@ msgstr "ključ"
 
 #: includes/admin/class-wc-admin-api-keys-table-list.php:27
 msgid "keys"
-msgstr ""
+msgstr "ključi"
 
 #: includes/admin/class-wc-admin-api-keys-table-list.php:40
 #: includes/admin/class-wc-admin-post-types.php:256
@@ -5387,7 +5393,7 @@ msgstr "Opis"
 #: includes/admin/class-wc-admin-api-keys-table-list.php:41
 #: includes/admin/settings/views/html-keys-edit.php:62
 msgid "Consumer Key Ending In"
-msgstr ""
+msgstr "Uporabniški ključ poteče v"
 
 #: includes/admin/class-wc-admin-api-keys-table-list.php:42
 #: includes/admin/settings/views/html-keys-edit.php:25
@@ -5397,25 +5403,25 @@ msgstr "Uporabnik"
 #: includes/admin/class-wc-admin-api-keys-table-list.php:43
 #: includes/admin/settings/views/html-keys-edit.php:40
 msgid "Permissions"
-msgstr ""
+msgstr "Dovoljenja"
 
 #: includes/admin/class-wc-admin-api-keys-table-list.php:44
 #: includes/admin/settings/views/html-keys-edit.php:70
 msgid "Last Access"
-msgstr ""
+msgstr "Zadnji dostop"
 
 #: includes/admin/class-wc-admin-api-keys-table-list.php:70
 msgid "API Key"
-msgstr ""
+msgstr "API ključ"
 
 #: includes/admin/class-wc-admin-api-keys-table-list.php:79
 #: includes/admin/class-wc-admin-webhooks-table-list.php:95
 msgid "ID: %d"
-msgstr ""
+msgstr "ID: %d"
 
 #: includes/admin/class-wc-admin-api-keys-table-list.php:80
 msgid "View/Edit"
-msgstr ""
+msgstr "Preglej/Uredi"
 
 #: includes/admin/class-wc-admin-api-keys-table-list.php:81
 msgid "Revoke API Key"
@@ -5447,24 +5453,24 @@ msgstr "Branje/Zapisovanje"
 #: includes/admin/class-wc-admin-api-keys-table-list.php:159
 #: includes/admin/settings/views/html-keys-edit.php:79
 msgid "Unknown"
-msgstr ""
+msgstr "Neznano"
 
 #: includes/admin/class-wc-admin-api-keys.php:61
 #: includes/admin/settings/class-wc-settings-api.php:46
 msgid "Keys/Apps"
-msgstr ""
+msgstr "Ključi/Aplikacije"
 
 #: includes/admin/class-wc-admin-api-keys.php:61
 msgid "Add Key"
-msgstr ""
+msgstr "Dodajte ključ"
 
 #: includes/admin/class-wc-admin-api-keys.php:71
 msgid "Search Key"
-msgstr ""
+msgstr "Najdi ključ"
 
 #: includes/admin/class-wc-admin-api-keys.php:132
 msgid "API Key revoked successfully."
-msgstr ""
+msgstr "API ključ"
 
 #: includes/admin/class-wc-admin-api-keys.php:141
 #: includes/admin/class-wc-admin-api-keys.php:156
@@ -5480,7 +5486,7 @@ msgstr "Dejanje neuspešno. Osvežite stran in poskusite znova."
 
 #: includes/admin/class-wc-admin-assets.php:146
 msgid "Please enter in decimal (%s) format without thousand separators."
-msgstr "Prosimo vnesite v decimalnem (%s) formatu, brez ločnic za tisoč."
+msgstr "Vnesite v decimalnem (%s) formatu, brez ločnic za tisoč."
 
 #: includes/admin/class-wc-admin-assets.php:147
 msgid ""
@@ -5492,11 +5498,11 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-assets.php:148
 msgid "Please enter in country code with two capital letters."
-msgstr "Prosimo vnesite kodo države z dvema velikima črkama"
+msgstr "Vnesite kodo države z dvema velikima črkama"
 
 #: includes/admin/class-wc-admin-assets.php:149
 msgid "Please enter in a value less than the regular price."
-msgstr "Prosimo vnesite vrednost, ki je nižja od priporočene cene."
+msgstr "Vnesite vrednost, ki je nižja od priporočene cene."
 
 #: includes/admin/class-wc-admin-assets.php:188
 msgid ""
@@ -5513,7 +5519,7 @@ msgstr "Vnesite vrednost"
 
 #: includes/admin/class-wc-admin-assets.php:190
 msgid "Variation menu order (determines position in the list of variations)"
-msgstr ""
+msgstr "Zaporedje v meniju variacij (določa mesto v seznamu variacij)"
 
 #: includes/admin/class-wc-admin-assets.php:191
 msgid "Enter a value (fixed or %)"
@@ -5559,19 +5565,19 @@ msgstr "Začetni datum prodaje (YYYY-MM-DD format ali pustite prazno)"
 
 #: includes/admin/class-wc-admin-assets.php:201
 msgid "Sale end date (YYYY-MM-DD format or leave blank)"
-msgstr ""
+msgstr "Konec razprodaje (v formatu LLLL-MM-DD ali prazno)"
 
 #: includes/admin/class-wc-admin-assets.php:202
 msgid "Save changes before changing page?"
-msgstr ""
+msgstr "Shranim spremembe pred spremembo strani?"
 
 #: includes/admin/class-wc-admin-assets.php:203
 msgid "%qty% variation"
-msgstr ""
+msgstr "%qty% variacija"
 
 #: includes/admin/class-wc-admin-assets.php:204
 msgid "%qty% variations"
-msgstr ""
+msgstr "%qty% variacije"
 
 #: includes/admin/class-wc-admin-assets.php:216
 #: includes/admin/class-wc-admin-assets.php:354
@@ -5592,7 +5598,7 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-assets.php:236
 msgid "Please select some items."
-msgstr "Prosimo izberite nekaj izdelkov."
+msgstr "Izberite nekaj izdelkov."
 
 #: includes/admin/class-wc-admin-assets.php:237
 msgid ""
@@ -5770,31 +5776,32 @@ msgstr ""
 #: includes/admin/views/html-admin-page-status-report.php:19
 msgid "Copying to clipboard failed. Please press Ctrl/Cmd+C to copy."
 msgstr ""
+"Kopiranje na odložišče je spodletelo. Pritisnite Ctrl/Cmd+C za kopiranje."
 
 #: includes/admin/class-wc-admin-attributes.php:98
 #: includes/api/legacy/v2/class-wc-api-products.php:2064
 #: includes/api/legacy/v3/class-wc-api-products.php:2645
 msgid "Slug \"%s\" is too long (28 characters max). Shorten it, please."
-msgstr "Slug \"%s\" je predolg (28 črk max). Skrajšajte prosim."
+msgstr "Slug \"%s\" je predolg (28 črk max). Skrajšajte ga."
 
 #: includes/admin/class-wc-admin-attributes.php:100
 #: includes/api/legacy/v2/class-wc-api-products.php:2066
 #: includes/api/legacy/v3/class-wc-api-products.php:2647
 msgid ""
 "Slug \"%s\" is not allowed because it is a reserved term. Change it, please."
-msgstr ""
+msgstr "Slug \"%s\" ni dovoljen, ker je rezervirani pojem. Spremenite ga."
 
 #: includes/admin/class-wc-admin-attributes.php:117
 #: includes/admin/class-wc-admin-attributes.php:146
 msgid "Please, provide an attribute name and slug."
-msgstr "Prosimo, izpolnite ime atribute in url link - slug"
+msgstr "Izpolnite ime atribute in url link - slug"
 
 #: includes/admin/class-wc-admin-attributes.php:121
 #: includes/admin/class-wc-admin-attributes.php:154
 #: includes/api/legacy/v2/class-wc-api-products.php:2068
 #: includes/api/legacy/v3/class-wc-api-products.php:2649
 msgid "Slug \"%s\" is already in use. Change it, please."
-msgstr ""
+msgstr "Slug \"%s\" je že v uporabi. Spremenite ga."
 
 #: includes/admin/class-wc-admin-attributes.php:201
 msgid "Attribute updated successfully"
@@ -5806,7 +5813,7 @@ msgstr "Uredi atribut"
 
 #: includes/admin/class-wc-admin-attributes.php:261
 msgid "Error: non-existing attribute ID."
-msgstr ""
+msgstr "Napaka: neobstoječ ID atributa."
 
 #: includes/admin/class-wc-admin-attributes.php:280
 #: includes/admin/class-wc-admin-attributes.php:446
@@ -5838,6 +5845,7 @@ msgid ""
 "Enable this if you want this attribute to have product archives in your "
 "store."
 msgstr ""
+"Vklopite to, če želite, da ima ta lastnost arhive izdelkov v vaši trgovini."
 
 #: includes/admin/class-wc-admin-attributes.php:303
 #: includes/admin/class-wc-admin-attributes.php:367
@@ -6057,15 +6065,15 @@ msgstr "(Kopiraj)"
 #: includes/admin/class-wc-admin-help.php:41
 #: includes/admin/class-wc-admin-help.php:45
 msgid "General Settings"
-msgstr ""
+msgstr "Splošne nastavitve"
 
 #: includes/admin/class-wc-admin-help.php:49
 msgid "Product Settings"
-msgstr ""
+msgstr "Nastavitve izdelka"
 
 #: includes/admin/class-wc-admin-help.php:53
 msgid "Tax Settings"
-msgstr ""
+msgstr "Nastavitve obdavčitve"
 
 #: includes/admin/class-wc-admin-help.php:57
 #: includes/admin/settings/class-wc-settings-shipping.php:48
@@ -6091,12 +6099,12 @@ msgstr "Razredi dostave"
 
 #: includes/admin/class-wc-admin-help.php:69
 msgid "Checkout Settings"
-msgstr ""
+msgstr "Nastavitve plačila"
 
 #: includes/admin/class-wc-admin-help.php:73
 #: includes/admin/class-wc-admin-setup-wizard.php:608
 msgid "Bank Transfer (BACS) Payments"
-msgstr ""
+msgstr "Plačila z bančnim nakazilom (BACS)"
 
 #: includes/admin/class-wc-admin-help.php:77
 msgid "Check Payments"
@@ -6117,33 +6125,33 @@ msgstr "PayPal Standard"
 #: includes/admin/class-wc-admin-help.php:89
 #: includes/admin/class-wc-admin-setup-wizard.php:567
 msgid "PayPal by Braintree"
-msgstr ""
+msgstr "PayPal by Braintree"
 
 #: includes/admin/class-wc-admin-help.php:93
 #: includes/admin/class-wc-admin-setup-wizard.php:581
 msgid "Stripe"
-msgstr ""
+msgstr "Stripe"
 
 #: includes/admin/class-wc-admin-help.php:97
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:24
 msgid "Simplify Commerce"
-msgstr ""
+msgstr "Poenostavite trgovanje"
 
 #: includes/admin/class-wc-admin-help.php:101
 msgid "Account Settings"
-msgstr ""
+msgstr "Nastavitve računa"
 
 #: includes/admin/class-wc-admin-help.php:105
 msgid "Email Settings"
-msgstr ""
+msgstr "Nastavitve e-pošte"
 
 #: includes/admin/class-wc-admin-help.php:109
 msgid "Webhook Settings"
-msgstr ""
+msgstr "Nastavitve potisnih sporočil"
 
 #: includes/admin/class-wc-admin-help.php:113
 msgid "Simple Products"
-msgstr ""
+msgstr "Preprosti izdelki"
 
 #: includes/admin/class-wc-admin-help.php:117
 #: includes/admin/class-wc-admin-pointers.php:192
@@ -6155,7 +6163,7 @@ msgstr "Kategorije izdelkov"
 #: includes/admin/class-wc-admin-help.php:121
 #: includes/admin/class-wc-admin-help.php:125
 msgid "Product Categories, Tags, Shipping Classes, &amp; Attributes"
-msgstr ""
+msgstr "Kategorije, značke, razredi dostave, lastnosti izdelkov"
 
 #: includes/admin/class-wc-admin-help.php:129
 #: includes/admin/class-wc-admin-help.php:197
@@ -6180,12 +6188,12 @@ msgstr "Kuponi"
 #: includes/admin/class-wc-admin-help.php:145
 #: includes/admin/class-wc-admin-help.php:149
 msgid "Managing Orders"
-msgstr ""
+msgstr "Urejanje naročil"
 
 #: includes/admin/class-wc-admin-help.php:172
 #: includes/admin/class-wc-admin-help.php:174
 msgid "WooCommerce 101"
-msgstr ""
+msgstr "WooCommerce 101"
 
 #: includes/admin/class-wc-admin-help.php:181
 #: includes/admin/class-wc-admin-help.php:183
@@ -6198,6 +6206,9 @@ msgid ""
 "%splease read our documentation%s. You will find all kinds of resources "
 "including snippets, tutorials and much more."
 msgstr ""
+"Če bi protrebovali pomoč pri razumevanju, uporabi ali nadgrajevanju "
+"WooCommerce, %sprosimo preberite dokumentacijo%s. Našli boste vire vseh vrst "
+"vključno z izrezki,  vajami in še mnogočim."
 
 #: includes/admin/class-wc-admin-help.php:190
 msgid ""
@@ -6205,16 +6216,21 @@ msgid ""
 "forum%s. If you need help with premium add-ons sold by WooThemes, please "
 "%suse our helpdesk%s."
 msgstr ""
+"Za nadaljno pomoč z WooCommerce jedrom lahko uporabite %scommunity forum%s. "
+"Če potrebujejo pomoč s premium dodatki, ki jih prodaja WooThemes,  "
+"%suporabite naš helpdesk%s."
 
 #: includes/admin/class-wc-admin-help.php:196
 msgid ""
 "Before asking for help we recommend checking the system status page to "
 "identify any problems with your configuration."
 msgstr ""
+"Preden prosite za pomoč, vam priporočamo, da preverite stran s stanjem "
+"sistema, da bi preprečili morebitne težave z nastavitvami."
 
 #: includes/admin/class-wc-admin-help.php:197
 msgid "Community Forum"
-msgstr ""
+msgstr "Forum skupnosti"
 
 #: includes/admin/class-wc-admin-help.php:197
 msgid "WooThemes Helpdesk"
@@ -6233,6 +6249,11 @@ msgid ""
 "your issue, please be as descriptive as possible and include your <a href="
 "\"%s\">system status report</a>."
 msgstr ""
+"V kolikor najdete hrošča v WooCommerce jedru, lahko ustvarite zahtevek preko "
+"<a href=\"%s\">Github issues</a>. Obvezno preberite <a href=\"%s"
+"\">contribution guide</a>, preden oddate poročilo o napaki. Da bi nam "
+"pomagali rešiti vašo težavo, bodite čimbolj jasni in razumljivi in vključite "
+"vaš <a href=\"%s\">system status report</a>."
 
 #: includes/admin/class-wc-admin-help.php:206
 msgid "Report a bug"
@@ -6241,29 +6262,31 @@ msgstr "Posredujte napako"
 #: includes/admin/class-wc-admin-help.php:212
 #: includes/admin/class-wc-admin-help.php:214
 msgid "Education"
-msgstr ""
+msgstr "Izobraževanje"
 
 #: includes/admin/class-wc-admin-help.php:215
 msgid ""
 "If you would like to learn about using WooCommerce from an expert, consider "
 "following a WooCommerce course ran by one of our educational partners."
 msgstr ""
+"Če se želite naučiti uporabe WooCommerce s strani strokovnjaka, razmislite o "
+"obisku WooCommerce tečaju, ki jih prirejajo naši izobraževalni partnerji."
 
 #: includes/admin/class-wc-admin-help.php:216
 msgid "View Education Partners"
-msgstr ""
+msgstr "Preglej seznam izobraževalnih partnerjev"
 
 #: includes/admin/class-wc-admin-help.php:221
 #: includes/admin/class-wc-admin-help.php:223
 #: includes/admin/class-wc-admin-help.php:225
 msgid "Setup Wizard"
-msgstr ""
+msgstr "Čarovnik za nastavitve"
 
 #: includes/admin/class-wc-admin-help.php:224
 msgid ""
 "If you need to access the setup wizard again, please click on the button "
 "below."
-msgstr ""
+msgstr "Če potrebujete Čarovnika za nastavitve, kliknite na spodnji gumb."
 
 #: includes/admin/class-wc-admin-help.php:230
 msgid "For more information:"
@@ -6326,7 +6349,7 @@ msgstr "Dodatki"
 
 #: includes/admin/class-wc-admin-menus.php:236
 msgid "WooCommerce Endpoints"
-msgstr ""
+msgstr "WooCommerce končne točke"
 
 #: includes/admin/class-wc-admin-menus.php:272
 msgid "Select All"
@@ -6338,7 +6361,7 @@ msgstr "Dodaj v menu"
 
 #: includes/admin/class-wc-admin-menus.php:308
 msgid "Visit Store"
-msgstr ""
+msgstr "Obiščite trgovino"
 
 #: includes/admin/class-wc-admin-meta-boxes.php:113
 #: includes/admin/class-wc-admin-pointers.php:156
@@ -6401,7 +6424,7 @@ msgstr "Goljufate&#8217; ups?"
 
 #: includes/admin/class-wc-admin-permalink-settings.php:36
 msgid "Product Permalinks"
-msgstr ""
+msgstr "Trajna povezava do izdelka"
 
 #: includes/admin/class-wc-admin-permalink-settings.php:41
 msgid "Product category base"
@@ -6417,7 +6440,7 @@ msgstr "Osnova atributov izdleka"
 
 #: includes/admin/class-wc-admin-permalink-settings.php:96
 msgid "These settings control the permalinks used specifically for products."
-msgstr ""
+msgstr "Te nastavitve upravljajo trajne povezave izdelkov."
 
 #: includes/admin/class-wc-admin-permalink-settings.php:115
 #: includes/admin/class-wc-admin-taxonomies.php:94
@@ -6454,6 +6477,8 @@ msgid ""
 "Give your new product a name here. This is a required field and will be what "
 "your customers will see in your store."
 msgstr ""
+"Dajte vašemu novemu izdelku tukaj ime. To je obvezno polje in prikazuje to, "
+"kar bodo kupci videli v vaši trgovini."
 
 #: includes/admin/class-wc-admin-pointers.php:73
 #: templates/single-product/tabs/description.php:25
@@ -6465,39 +6490,50 @@ msgid ""
 "This is your products main body of content. Here you should describe your "
 "product in detail."
 msgstr ""
+"To je glavno telo opisa vašega izdelka. Opišite vaš izdelek do podrobnosti "
+"tukaj."
 
 #: includes/admin/class-wc-admin-pointers.php:89
 msgid "Choose Product Type"
-msgstr ""
+msgstr "Izberite tip izdelka"
 
 #: includes/admin/class-wc-admin-pointers.php:90
 msgid ""
 "Choose a type for this product. Simple is suitable for most physical goods "
 "and services (we recommend setting up a simple product for now)."
 msgstr ""
+"Izberite tip tega izdelka. Preprost je primere za večino fizičnih izdelkov "
+"in storitev (trenutno priporočamo nastavitev preprostega izdelka)."
 
 #: includes/admin/class-wc-admin-pointers.php:91
 msgid ""
 "Variable is for more complex products such as t-shirts with multiple sizes."
 msgstr ""
+"Spremenljivka se uporablja za bolj zapletene izdelke, kot npr. majice z več "
+"velikostmi."
 
 #: includes/admin/class-wc-admin-pointers.php:92
 msgid "Grouped products are for grouping several simple products into one."
 msgstr ""
+"Združeni izdelki se uporabljajo za združevanje večih preprostih izdelkov v "
+"enega."
 
 #: includes/admin/class-wc-admin-pointers.php:93
 msgid "Finally, external products are for linking off-site."
 msgstr ""
+"In končno , zunanji izdelki so za povezovanje z zunanjimi spletnimi stranmi."
 
 #: includes/admin/class-wc-admin-pointers.php:108
 msgid "Virtual Products"
-msgstr ""
+msgstr "Navidezni izdelki"
 
 #: includes/admin/class-wc-admin-pointers.php:109
 msgid ""
 "Check the \"Virtual\" box if this is a non-physical item, for example a "
 "service, which does not need shipping."
 msgstr ""
+"Označite polje \"Virtualen\", če je to nefizična postavka, npr. storitev, ki "
+"ne potrebuje dostave."
 
 #: includes/admin/class-wc-admin-pointers.php:124
 #: includes/admin/settings/class-wc-settings-products.php:47
@@ -6509,7 +6545,7 @@ msgstr "Prenosljivi izdelki"
 msgid ""
 "If purchasing this product gives a customer access to a downloadable file, e."
 "g. software, check this box."
-msgstr ""
+msgstr "Če nakup "
 
 #: includes/admin/class-wc-admin-pointers.php:140
 msgid "Prices"
@@ -6517,13 +6553,15 @@ msgstr "Cene"
 
 #: includes/admin/class-wc-admin-pointers.php:141
 msgid "Next you'll need to give your product a price."
-msgstr ""
+msgstr "Vašemu izdelku boste potrebovali določiti ceno."
 
 #: includes/admin/class-wc-admin-pointers.php:157
 msgid ""
 "Add a quick summary for your product here. This will appear on the product "
 "page under the product name."
 msgstr ""
+"Vnesite kratek povzetek za vaš izdelek tukaj. To bo vidno na strani izdelka "
+"pod imenom izdelka."
 
 #: includes/admin/class-wc-admin-pointers.php:168
 #: includes/admin/settings/class-wc-settings-products.php:176
@@ -6535,6 +6573,8 @@ msgid ""
 "Upload or assign an image to your product here. This image will be shown in "
 "your store's catalog."
 msgstr ""
+"Naložite ali določite izdelku sliko. Ta slika bo prikazana v katalogu "
+"izdelkov vaše trgovine."
 
 #: includes/admin/class-wc-admin-pointers.php:180
 #: includes/class-wc-post-types.php:99 includes/class-wc-post-types.php:101
@@ -6547,22 +6587,28 @@ msgid ""
 "You can optionally \"tag\" your products here. Tags as a method of labeling "
 "your products to make them easier for customers to find."
 msgstr ""
+"Po želji lahko izdelek tukaj označite. Označevanje izdelkov z značkami "
+"olajša iskanje. "
 
 #: includes/admin/class-wc-admin-pointers.php:193
 msgid ""
 "Optionally assign categories to your products to make them easier to browse "
 "through and find in your store."
 msgstr ""
+"Po želji lahko izdelkom določite kategorije in s tem poenostavite brskanje "
+"in iskanje."
 
 #: includes/admin/class-wc-admin-pointers.php:204
 msgid "Publish Your Product!"
-msgstr ""
+msgstr "Objavi izdelek!"
 
 #: includes/admin/class-wc-admin-pointers.php:205
 msgid ""
 "When you are finished editing your product, hit the \"Publish\" button to "
 "publish your product to your store."
 msgstr ""
+"Ko zaključite urejanje izdelka, pritisnite gumb \"Objavi\", da se izdelek "
+"objavi v trgovini."
 
 #: includes/admin/class-wc-admin-post-types.php:127
 msgid "Product updated. <a href=\"%s\">View Product</a>"
@@ -6685,122 +6731,122 @@ msgstr "Osnutek kupona posodobljen."
 #: includes/admin/class-wc-admin-post-types.php:183
 msgid "%s product updated."
 msgid_plural "%s products updated."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%s izdelek posodobljen"
+msgstr[1] "%s izdelka posodobljena"
+msgstr[2] "%s izdelki posodobljeni"
+msgstr[3] "%s izdelkov posodobljeno"
 
 #: includes/admin/class-wc-admin-post-types.php:184
 msgid "%s product not updated, somebody is editing it."
 msgid_plural "%s products not updated, somebody is editing them."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%s product not updated, somebody is editing it."
+msgstr[1] "%s izdeleka nista posodobljena, ker ju nekdo ureja."
+msgstr[2] "%s izdelki niso posodobljeni, ker jih nekdo ureja."
+msgstr[3] "%s izdelkov ni posodobljeno, ker jih nekdo ureja."
 
 #: includes/admin/class-wc-admin-post-types.php:185
 msgid "%s product permanently deleted."
 msgid_plural "%s products permanently deleted."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%s izdelek je dokončno izbrisan."
+msgstr[1] "%s izdelka sta dokončno izbrisana."
+msgstr[2] "%s izdelki so dokončno izbrisani."
+msgstr[3] "%s izdelekov je dokončno izbrisanih."
 
 #: includes/admin/class-wc-admin-post-types.php:186
 msgid "%s product moved to the Trash."
 msgid_plural "%s products moved to the Trash."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%s izdelek je premaknjen v smeti. "
+msgstr[1] "%s izdelka sta premaknjena v smeti. "
+msgstr[2] "%s izdelki so premaknjeni v smeti. "
+msgstr[3] "%s izdelkov je premaknjenih v smeti. "
 
 #: includes/admin/class-wc-admin-post-types.php:187
 msgid "%s product restored from the Trash."
 msgid_plural "%s products restored from the Trash."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%s izdelek je bil obnovljen iz smeti."
+msgstr[1] "%s izdelka sta bila obnovljena iz smeti."
+msgstr[2] "%s izdelki so bili obnovljeni iz smeti."
+msgstr[3] "%s izdelkov je bilo obnovljenih iz smeti."
 
 #: includes/admin/class-wc-admin-post-types.php:191
 msgid "%s order updated."
 msgid_plural "%s orders updated."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%s naročilo posodobljeno."
+msgstr[1] "%s naročili posodobljeni."
+msgstr[2] "%s naročila posodobljena."
+msgstr[3] "%s naročil posodobljenih."
 
 #: includes/admin/class-wc-admin-post-types.php:192
 msgid "%s order not updated, somebody is editing it."
 msgid_plural "%s orders not updated, somebody is editing them."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%s naročilo ni posodobljeno, ker ga nekdo ureja."
+msgstr[1] "%s naročili nista posodobljeni, ker ju nekdo ureja."
+msgstr[2] "%s naročil niso posodobljena, ker jih nekdo ureja."
+msgstr[3] "%s naročil ni posodobljenih, ker jih nekdo ureja."
 
 #: includes/admin/class-wc-admin-post-types.php:193
 msgid "%s order permanently deleted."
 msgid_plural "%s orders permanently deleted."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%s naročilo je trajno izbrisano."
+msgstr[1] "%s naročili sta trajno izbrisani."
+msgstr[2] "%s naročila so trajno izbrisana."
+msgstr[3] "%s naročil je trajno izbrisanih."
 
 #: includes/admin/class-wc-admin-post-types.php:194
 msgid "%s order moved to the Trash."
 msgid_plural "%s orders moved to the Trash."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%s naročilo je premaknjeno v smeti."
+msgstr[1] "%s naročili sta premaknjeni v smeti."
+msgstr[2] "%s naročila so premaknjena v smeti."
+msgstr[3] "%s naročil je premaknjenih v smeti."
 
 #: includes/admin/class-wc-admin-post-types.php:195
 msgid "%s order restored from the Trash."
 msgid_plural "%s orders restored from the Trash."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%s naročilo je obnovljeno iz smeti."
+msgstr[1] "%s naročili sta obnovljeni iz smeti."
+msgstr[2] "%s naročilaso obnovljena iz smeti."
+msgstr[3] "%s naročil je obnovljenih iz smeti."
 
 #: includes/admin/class-wc-admin-post-types.php:199
 msgid "%s coupon updated."
 msgid_plural "%s coupons updated."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%s obnovljen kupon."
+msgstr[1] "%s obnovljena kupona."
+msgstr[2] "%s obnovljeni kuponi."
+msgstr[3] "%s obnovljenih kuponov."
 
 #: includes/admin/class-wc-admin-post-types.php:200
 msgid "%s coupon not updated, somebody is editing it."
 msgid_plural "%s coupons not updated, somebody is editing them."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%s kupon ni posodobljen, ker ga nekdo ureja."
+msgstr[1] "%s kupona nista posodobljena, ker ju nekdo ureja."
+msgstr[2] "%s kuponi niso posodobljeni, ker jih nekdo ureja."
+msgstr[3] "%s kuponov ni posodobljeno, ker jih nekdo ureja."
 
 #: includes/admin/class-wc-admin-post-types.php:201
 msgid "%s coupon permanently deleted."
 msgid_plural "%s coupons permanently deleted."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%s kupon je trajno izbrisan."
+msgstr[1] "%s kupona sta trajno izbrisana."
+msgstr[2] "%s kuponi so trajno izbrisani."
+msgstr[3] "%s kuponov je trajno izbrisanih."
 
 #: includes/admin/class-wc-admin-post-types.php:202
 msgid "%s coupon moved to the Trash."
 msgid_plural "%s coupons moved to the Trash."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%s kupon je premaknjen v smeti."
+msgstr[1] "%s kupona sta premaknjena v smeti."
+msgstr[2] "%s kuponi so premaknjeni v smeti."
+msgstr[3] "%s kuponov je premaknjenih v smeti."
 
 #: includes/admin/class-wc-admin-post-types.php:203
 msgid "%s coupon restored from the Trash."
 msgid_plural "%s coupons restored from the Trash."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%s kupon je obnovljen iz smeti."
+msgstr[1] "%s kupona sta obnovljena iz smeti."
+msgstr[2] "%s kuponi so obnovljeni iz smeti."
+msgstr[3] "%s kuponov je obnovljenih iz smeti."
 
 #: includes/admin/class-wc-admin-post-types.php:223
 #: includes/admin/class-wc-admin-taxonomies.php:317
@@ -7118,7 +7164,7 @@ msgstr "Gost"
 
 #: includes/admin/class-wc-admin-post-types.php:768
 msgid "Show more details"
-msgstr ""
+msgstr "Več podrobnosti"
 
 #: includes/admin/class-wc-admin-post-types.php:782
 msgid "Processing"
@@ -7190,7 +7236,7 @@ msgstr "Prikaži vse tipe"
 #: includes/admin/class-wc-admin-post-types.php:1687
 #: includes/admin/settings/views/html-keys-edit.php:35
 msgid "Search for a customer&hellip;"
-msgstr ""
+msgstr "Iskanje kupca&hellip;"
 
 #: includes/admin/class-wc-admin-post-types.php:2051
 msgid "Product name"
@@ -7236,6 +7282,7 @@ msgid ""
 "Choose where this product should be displayed in your catalog. The product "
 "will always be accessible directly."
 msgstr ""
+"Izberite mesto objave izdelka v katalogu. Izdelek bo dosegljiv neposredno."
 
 #: includes/admin/class-wc-admin-post-types.php:2130
 msgid "Enable this option to feature this product."
@@ -7271,6 +7318,8 @@ msgid ""
 "Coupons are a great way to offer discounts and rewards to your customers. "
 "They will appear here once created."
 msgstr ""
+"Kuponi so dober način, kako ponuditi popuste in nagrade vašim strankam. Ko "
+"jih boste ustvarili, se bodo pojavili tukaj."
 
 #: includes/admin/class-wc-admin-post-types.php:2282
 msgid "Learn more about coupons"
@@ -7278,12 +7327,12 @@ msgstr "Izvedite več o kuponih"
 
 #: includes/admin/class-wc-admin-post-types.php:2287
 msgid "Ready to start selling something awesome?"
-msgstr ""
+msgstr "Ste pripravljeni na to, da boste prodajali nekaj izrednega?"
 
 #: includes/admin/class-wc-admin-post-types.php:2288
 #: includes/admin/class-wc-admin-setup-wizard.php:767
 msgid "Create your first product!"
-msgstr ""
+msgstr "Ustvarite vaš prvi izdelek!"
 
 #: includes/admin/class-wc-admin-profile.php:41
 msgid "Customer Billing Address"
@@ -7481,20 +7530,20 @@ msgstr "Izberite države@hellip;"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:59
 msgid "Introduction"
-msgstr ""
+msgstr "Predstavitev"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:64
 #: includes/admin/class-wc-admin-setup-wizard.php:220
 msgid "Page Setup"
-msgstr ""
+msgstr "Nastavitev strani"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:69
 msgid "Store Locale"
-msgstr ""
+msgstr "Jezik trgovine"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:74
 msgid "Shipping &amp; Tax"
-msgstr ""
+msgstr "Dostava in davki"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:79
 #: includes/admin/class-wc-admin-setup-wizard.php:644
@@ -7503,19 +7552,19 @@ msgstr "Plačila"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:84
 msgid "Ready!"
-msgstr ""
+msgstr "Pripravljeni!"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:147
 msgid "WooCommerce &rsaquo; Setup Wizard"
-msgstr ""
+msgstr "WooCommerce &rsaquo; čarovnik"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:163
 msgid "Return to the WordPress Dashboard"
-msgstr ""
+msgstr "Vrnitev na Namizje WordPress"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:205
 msgid "Welcome to the world of WooCommerce!"
-msgstr ""
+msgstr "Dobrodošli v svet WooCommerce!"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:206
 msgid ""
@@ -7523,6 +7572,9 @@ msgid ""
 "setup wizard will help you configure the basic settings. <strong>It’s "
 "completely optional and shouldn’t take longer than five minutes.</strong>"
 msgstr ""
+"Hvala vam za izbiro WooCommerce za vašo spletno trgovino! Ta hitri čarovnik "
+"vam bo pomagal nastaviti osnovne nastavitve. <strong>Uporabite ga lahko po "
+"želji in ne traja več kot pet minut.</strong>"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:207
 msgid ""
@@ -7530,45 +7582,54 @@ msgid ""
 "and return to the WordPress dashboard. Come back anytime if you change your "
 "mind!"
 msgstr ""
+"Nimate trenutno časa? Če ne želite uporabiti čarovnika, ga lahko preskočite "
+"in se vrnete na WordPress namizje. V kolikor si premislite, se lahko "
+"kadarkoli vrnete semkaj!"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:209
 msgid "Let's Go!"
-msgstr ""
+msgstr "Začnimo!"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:210
 msgid "Not right now"
-msgstr ""
+msgstr "Ne zdaj"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:222
 msgid ""
 "Your store needs a few essential %spages%s. The following will be created "
 "automatically (if they do not already exist):"
 msgstr ""
+"Vaša trgovina potrebuje nekaj ključnih %sstrani%s. Sledeče bodo ustvarjene "
+"samodejno (če že ne obstajo):"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:226
 msgid "Page Name"
-msgstr ""
+msgstr "Naslov strani"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:233
 msgid "The shop page will display your products."
-msgstr ""
+msgstr "Trgovina bo prikazala vaše izdelke."
 
 #: includes/admin/class-wc-admin-setup-wizard.php:237
 msgid ""
 "The cart page will be where the customers go to view their cart and begin "
 "checkout."
 msgstr ""
+"Stran z nakupovalno košarico bo tam, kamor gredo kupci pogledat njihovo "
+"košarico in se usmerijo na blagajno."
 
 #: includes/admin/class-wc-admin-setup-wizard.php:242
 msgid ""
 "The checkout page will be where the customers go to pay for their items."
-msgstr ""
+msgstr "Na stran z blagajno gredo kupci plačati za izbrane stvari. "
 
 #: includes/admin/class-wc-admin-setup-wizard.php:248
 msgid ""
 "Registered customers will be able to manage their account details and view "
 "past orders on this page."
 msgstr ""
+"Na tej strani bodo registrirani kupci lahko urejali podrobnosti njihovega "
+"računa in videli pretekla naročila."
 
 #: includes/admin/class-wc-admin-setup-wizard.php:254
 msgid ""
@@ -7576,41 +7637,44 @@ msgid ""
 "%sPages screen%s. You can control which pages are shown on your website via "
 "%sAppearance > Menus%s."
 msgstr ""
+"Ko so ustvarjene, lahko te strani urejate z vašega administratorskega "
+"namizja na zaslonu %sStrani%s. Nastavite lahko, katere strani so prikazane "
+"na vaši spletni strani preko %sVidez > Meniji%s."
 
 #: includes/admin/class-wc-admin-setup-wizard.php:257
 #: includes/admin/class-wc-admin-setup-wizard.php:373
 #: includes/admin/class-wc-admin-setup-wizard.php:494
 #: includes/admin/class-wc-admin-setup-wizard.php:687
 msgid "Continue"
-msgstr ""
+msgstr "Nadaljuj"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:258
 #: includes/admin/class-wc-admin-setup-wizard.php:374
 #: includes/admin/class-wc-admin-setup-wizard.php:495
 #: includes/admin/class-wc-admin-setup-wizard.php:688
 msgid "Skip this step"
-msgstr ""
+msgstr "Preskoči"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:294
 msgid "Store Locale Setup"
-msgstr ""
+msgstr "Jezikovne nastavitve"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:298
 msgid "Where is your store based?"
-msgstr ""
+msgstr "Kje se vaša trgovina nahaja?"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:306
 msgid "Which currency will your store use?"
-msgstr ""
+msgstr "Katero valuto bo vaša trgovina uporabljala?"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:308
 #: includes/admin/class-wc-admin-setup-wizard.php:309
 msgid "Choose a currency&hellip;"
-msgstr ""
+msgstr "Izberite valuto&hellip;"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:316
 msgid "If your currency is not listed you can %sadd it later%s."
-msgstr ""
+msgstr "Če vaša valuta ni navedena, jo lahko %sdodate kasneje%s."
 
 #: includes/admin/class-wc-admin-setup-wizard.php:320
 #: includes/admin/settings/class-wc-settings-general.php:179
@@ -7658,7 +7722,7 @@ msgstr "Število decimalk"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:349
 msgid "Which unit should be used for product weights?"
-msgstr ""
+msgstr "Katere enote uporabimo za težo izdelka?"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:352
 #: includes/admin/settings/class-wc-settings-products.php:430
@@ -7682,7 +7746,7 @@ msgstr "oz"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:360
 msgid "Which unit should be used for product dimensions?"
-msgstr ""
+msgstr "Katere enote uporabimo za mere izdelka?"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:363
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:200
@@ -7712,33 +7776,35 @@ msgstr "yd"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:414
 msgid "Shipping &amp; Tax Setup"
-msgstr ""
+msgstr "Nastavitev obdavčitve dostave"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:416
 msgid ""
 "If you will be charging sales tax, or shipping physical goods to customers, "
 "you can enable these below. This is optional and can be changed later."
 msgstr ""
+"Če boste zaračunavali davek ob prodaji ali pošiljali izdelke kupcem, lahko "
+"te vklopite spodaj. To je po želji in se lahko kasneje spremeni."
 
 #: includes/admin/class-wc-admin-setup-wizard.php:419
 msgid "Will you be shipping products?"
-msgstr ""
+msgstr "Ali boste dostavljali izdelke?"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:422
 msgid "Yes, I will be shipping physical goods to customers"
-msgstr ""
+msgstr "Da, dostavljali bomo fizične izdelke kupcem."
 
 #: includes/admin/class-wc-admin-setup-wizard.php:426
 msgid "Will you be charging sales tax?"
-msgstr ""
+msgstr "Ali boste zaračunavali davek?"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:429
 msgid "Yes, I will be charging sales tax"
-msgstr ""
+msgstr "Da, zaračunavali bomo davek."
 
 #: includes/admin/class-wc-admin-setup-wizard.php:433
 msgid "How will you enter product prices?"
-msgstr ""
+msgstr "Katere cene izdelkov boste vnašali?"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:435
 msgid "I will enter prices inclusive of tax"
@@ -7753,6 +7819,8 @@ msgid ""
 "The following tax rates will be imported automatically for you. You can read "
 "more about taxes in %1$sour documentation%2$s."
 msgstr ""
+"Sledeče davčne stopnje bodo uvožene avtomatsko. Več o davkih lahko preberete "
+"v %1$sdokumentaciji%2$s."
 
 #: includes/admin/class-wc-admin-setup-wizard.php:465
 #: includes/class-wc-countries.php:660 includes/class-wc-countries.php:923
@@ -7769,6 +7837,9 @@ msgid ""
 "location which can be done from the %1$stax settings%2$s screen. If in "
 "doubt, speak to an accountant."
 msgstr ""
+"Morda boste potrebovali dodati / urediti davčne stopnje glede na vaše "
+"izdelke ali lokacijo posla. To lahko naredite na zaslonu %1$sDavčne "
+"nastavitve%2$s. Če ste v dvomih, se posvetujte s svojim računovodstvom. "
 
 #: includes/admin/class-wc-admin-setup-wizard.php:569
 #: includes/admin/class-wc-admin-setup-wizard.php:576
@@ -7776,20 +7847,26 @@ msgid ""
 "Safe and secure payments using credit cards or your customer's PayPal "
 "account. %sLearn more about PayPal%s."
 msgstr ""
+"Varna plačila z uporabo plačilnih kartic ali PayPal računa vaših kupcev. "
+"%sOdkrijte več o PayPal-u%s."
 
 #: includes/admin/class-wc-admin-setup-wizard.php:574
 msgid "PayPal Express Checkout"
-msgstr ""
+msgstr "PayPal Express Checkout"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:583
 msgid ""
 "A modern and robust way to accept credit card payments on your store. "
 "%sLearn more about Stripe%s."
 msgstr ""
+"Moderen in robusten način sprejemanja plačilnih kartic v vaši trgovini. "
+"%sOdkrijte več o Stripe%s."
 
 #: includes/admin/class-wc-admin-setup-wizard.php:589
 msgid "Accept payments via PayPal using account balance or credit card."
 msgstr ""
+"Sprejemajte plačila preko PayPal z uporabo stanja na računu ali preko "
+"plačilne kartice."
 
 #: includes/admin/class-wc-admin-setup-wizard.php:594
 #: includes/admin/class-wc-admin-setup-wizard.php:597
@@ -7800,14 +7877,16 @@ msgstr "E-poštni naslov PayPal"
 msgid ""
 "A simple offline gateway that lets you accept a check as method of payment."
 msgstr ""
+"Preprosta offline vrata, ki vam omogočajo sprejemanje čeka kot načina "
+"plačila."
 
 #: includes/admin/class-wc-admin-setup-wizard.php:609
 msgid "An simple offline gateway that lets you accept BACS payment."
-msgstr ""
+msgstr "Preprosta offline vrata, ki omogočajo sprejemanje BACS plačila."
 
 #: includes/admin/class-wc-admin-setup-wizard.php:615
 msgid "An simple offline gateway that lets you accept cash on delivery."
-msgstr ""
+msgstr "Preprosta offline vrata, ki omogočajo pošiljanje po povzetju."
 
 #: includes/admin/class-wc-admin-setup-wizard.php:646
 msgid ""
@@ -7815,16 +7894,21 @@ msgid ""
 "payment methods%3$s can be installed later and managed from the %1$scheckout "
 "settings%3$s screen."
 msgstr ""
+"WooCommerce lahko sprejema tako online, kot offline plačila.  %2$sDodatni "
+"načini plačila%3$s se lahko naložijo kasneje in urejajo preko zaslona "
+"%1$nastavitve blagajne%3$s."
 
 #: includes/admin/class-wc-admin-setup-wizard.php:751
 msgid "Your Store is Ready!"
-msgstr ""
+msgstr "Vaša trgovina je pripravljena!"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:755
 msgid ""
 "Want to help make WooCommerce even more awesome? Allow WooThemes to collect "
 "non-sensitive diagnostic data and usage information. %sFind out more%s."
 msgstr ""
+"Ali želite narediti WooCommerce še bolj hud? Dovoli WooThemes zbiranje "
+"neobčutljivih diagnostičnih podatkov in informacij o uporabi. %sOdkrij več%s."
 
 #: includes/admin/class-wc-admin-setup-wizard.php:757
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:317
@@ -7837,11 +7921,11 @@ msgstr "Dovoli"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:758
 msgid "No thanks"
-msgstr ""
+msgstr "Ne, hvala."
 
 #: includes/admin/class-wc-admin-setup-wizard.php:765
 msgid "Next Steps"
-msgstr ""
+msgstr "Naslednji koraki"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:771
 msgid "Learn More"
@@ -7849,11 +7933,11 @@ msgstr "Odkrijte več"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:773
 msgid "Watch the WC 101 video walkthroughs"
-msgstr ""
+msgstr "Poglejte WC 101 video"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:774
 msgid "Get eCommerce advice in your inbox"
-msgstr ""
+msgstr "Prejmite eCommmerce nasvet v vaš e-poštni predal."
 
 #: includes/admin/class-wc-admin-setup-wizard.php:775
 msgid "Learn more about getting started"
@@ -7889,7 +7973,7 @@ msgstr "Davčne stopnje uspešno izbrisane"
 
 #: includes/admin/class-wc-admin-status.php:120
 msgid "Usage tracking settings successfully reset."
-msgstr ""
+msgstr "Nastavitve sledenja uporabi so ponastavljena."
 
 #: includes/admin/class-wc-admin-status.php:129
 msgid "There was an error calling %s"
@@ -8007,17 +8091,19 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-status.php:186
 msgid "Reset Usage Tracking Settings"
-msgstr ""
+msgstr "Ponastavi nastavitev sledenja uporabi."
 
 #: includes/admin/class-wc-admin-status.php:187
 msgid "Reset usage tracking settings"
-msgstr ""
+msgstr "Ponastavi nastavitev sledenja uporabi."
 
 #: includes/admin/class-wc-admin-status.php:188
 msgid ""
 "This will reset your usage tracking settings, causing it to show the opt-in "
 "banner again and not sending any data."
 msgstr ""
+"To bo ponastavilo nastavitev sledenja uporabi, povzročilo ponovni prikaz opt-"
+"in pasice in prekinilo pošiljanje podatkov. "
 
 #: includes/admin/class-wc-admin-taxonomies.php:92
 #: includes/admin/class-wc-admin-taxonomies.php:198
@@ -8084,19 +8170,23 @@ msgid ""
 "variations to which it has been assigned. Recreating a term will not "
 "automatically assign it back to products."
 msgstr ""
+"Lastnosti so lahko določene produktom in variacijam. <br/><br/><b>Pozor</b>: "
+"Če izbrišete lastnost, bo ta izbrisana z vseh izdelkov in variacij, katerim "
+"je bila določena. Ponovno utvarjanje lastnosti je ne bo dodelilo izdelkom "
+"nazaj. "
 
 #: includes/admin/class-wc-admin-webhooks-table-list.php:26
 msgid "webhook"
-msgstr ""
+msgstr "ročka"
 
 #: includes/admin/class-wc-admin-webhooks-table-list.php:27
 msgid "webhooks"
-msgstr ""
+msgstr "ročke"
 
 #: includes/admin/class-wc-admin-webhooks-table-list.php:42
 #: includes/admin/settings/views/html-webhooks-edit.php:41
 msgid "Topic"
-msgstr ""
+msgstr "Tema"
 
 #: includes/admin/class-wc-admin-webhooks-table-list.php:43
 #: includes/admin/settings/views/html-webhooks-edit.php:93
@@ -8106,17 +8196,17 @@ msgstr "Naročnikov URL"
 #: includes/admin/class-wc-admin-webhooks-table-list.php:164
 #: includes/admin/class-wc-admin-webhooks-table-list.php:165
 msgid "Activated <span class=\"count\">(%s)</span>"
-msgstr ""
+msgstr "Aktiviran <span class=\"count\">(%s)</span>"
 
 #: includes/admin/class-wc-admin-webhooks-table-list.php:172
 #: includes/admin/class-wc-admin-webhooks-table-list.php:173
 msgid "Paused <span class=\"count\">(%s)</span>"
-msgstr ""
+msgstr "Zaustavljen <span class=\"count\">(%s)</span>"
 
 #: includes/admin/class-wc-admin-webhooks-table-list.php:180
 #: includes/admin/class-wc-admin-webhooks-table-list.php:181
 msgid "Disabled <span class=\"count\">(%s)</span>"
-msgstr ""
+msgstr "Deaktiviran <span class=\"count\">(%s)</span>"
 
 #: includes/admin/class-wc-admin-webhooks-table-list.php:252
 #: includes/admin/meta-boxes/class-wc-meta-box-order-actions.php:78
@@ -8134,81 +8224,81 @@ msgstr "Nepreklicno izbriši"
 #: includes/api/legacy/v2/class-wc-api-webhooks.php:197
 #: includes/api/legacy/v3/class-wc-api-webhooks.php:197
 msgid "Webhook created on %s"
-msgstr ""
+msgstr "Ročka ustvarjena na %s"
 
 #: includes/admin/class-wc-admin-webhooks.php:189
 msgid "You don't have permissions to create Webhooks!"
-msgstr ""
+msgstr "Nimate pravic za ustvarjanje ročk!"
 
 #: includes/admin/class-wc-admin-webhooks.php:269
 msgid "You don't have permissions to edit Webhooks!"
-msgstr ""
+msgstr "Nimate pravic za urejanje ročk!"
 
 #: includes/admin/class-wc-admin-webhooks.php:298
 msgid "You don't have permissions to delete Webhooks!"
-msgstr ""
+msgstr "Nimate pravic za brisanje ročk!"
 
 #: includes/admin/class-wc-admin-webhooks.php:374
 msgid "1 webhook moved to the Trash."
 msgid_plural "%d webhooks moved to the Trash."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%d ročka izbrisana."
+msgstr[1] "%d ročki izbrisani."
+msgstr[2] "%d ročke izbrisane."
+msgstr[3] "%d ročk izbrisanih."
 
 #: includes/admin/class-wc-admin-webhooks.php:380
 msgid "1 webhook restored from the Trash."
 msgid_plural "%d webhooks restored from the Trash."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%d ročka obnovljena iz smeti."
+msgstr[1] "%d ročki obnovljeni iz smeti."
+msgstr[2] "%d ročke obnovljene iz smeti."
+msgstr[3] "%d ročk obnovljenih iz smeti."
 
 #: includes/admin/class-wc-admin-webhooks.php:386
 msgid "1 webhook permanently deleted."
 msgid_plural "%d webhooks permanently deleted."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%d ročka dokončno izbrisana."
+msgstr[1] "%d ročki dokončno izbrisani."
+msgstr[2] "%d ročke dokončno izbrisane."
+msgstr[3] "%d ročk dokončno izbrisanih."
 
 #: includes/admin/class-wc-admin-webhooks.php:390
 msgid "Webhook updated successfully."
-msgstr ""
+msgstr "Ročka je posodobljena."
 
 #: includes/admin/class-wc-admin-webhooks.php:394
 msgid "Webhook created successfully."
-msgstr ""
+msgstr "Ročka je ustvarjena."
 
 #: includes/admin/class-wc-admin-webhooks.php:406
 #: includes/admin/settings/class-wc-settings-api.php:47
 #: includes/class-wc-post-types.php:401
 msgid "Webhooks"
-msgstr ""
+msgstr "Ročke"
 
 #: includes/admin/class-wc-admin-webhooks.php:406
 #: includes/class-wc-post-types.php:404
 msgid "Add Webhook"
-msgstr ""
+msgstr "Dodaj ročko"
 
 #: includes/admin/class-wc-admin-webhooks.php:416
 #: includes/class-wc-post-types.php:411
 msgid "Search Webhooks"
-msgstr ""
+msgstr "Išči ročko"
 
 #: includes/admin/class-wc-admin-webhooks.php:447
 msgid "This Webhook has no log yet."
-msgstr ""
+msgstr "Ta Ročka še nima dnevnika."
 
 #: includes/admin/class-wc-admin-webhooks.php:498
 #: includes/admin/class-wc-admin-webhooks.php:500
 msgid "&lsaquo; Previous"
-msgstr ""
+msgstr "&lsaquo; Predhodnji"
 
 #: includes/admin/class-wc-admin-webhooks.php:504
 #: includes/admin/class-wc-admin-webhooks.php:506
 msgid "Next &rsaquo;"
-msgstr ""
+msgstr "Naslednji &rsaquo;"
 
 #: includes/admin/class-wc-admin.php:182
 msgid "HTML Email Template"
@@ -8219,10 +8309,12 @@ msgid ""
 "If you like <strong>WooCommerce</strong> please leave us a %s&#9733;&#9733;"
 "&#9733;&#9733;&#9733;%s rating. A huge thank you from WooThemes in advance!"
 msgstr ""
+"če vam je <strong>WooCommerce</strong> všeč, nam prosim pustite %s&#9733;"
+"&#9733;&#9733;&#9733;&#9733;%s oceno. Vnaprej se vam zahvaljujemo."
 
 #: includes/admin/class-wc-admin.php:229
 msgid "Thanks :)"
-msgstr ""
+msgstr "Hvala :)"
 
 #: includes/admin/class-wc-admin.php:237
 msgid "Thank you for selling with WooCommerce."
@@ -8238,7 +8330,7 @@ msgstr "CSV je neveljaven"
 
 #: includes/admin/importers/class-wc-tax-rate-importer.php:168
 msgid "Import complete - imported <strong>%s</strong> tax rates."
-msgstr ""
+msgstr "Uvoz končan. Uvoženo <strong>%s</strong> davčnih stopenj."
 
 #: includes/admin/importers/class-wc-tax-rate-importer.php:178
 msgid "All done!"
@@ -11497,6 +11589,8 @@ msgid ""
 "Postcodes containing wildcards (e.g. CB23*) and fully numeric ranges (e.g. "
 "<code>90210...99000</code>) are also supported."
 msgstr ""
+"Podprte so tudi pošte številke z jokerji (npr. CB23*) in številska območja "
+"(npr. <code>90210...99000</code>)."
 
 #: includes/admin/settings/views/html-keys-edit.php:8
 msgid "Key Details"
@@ -12371,7 +12465,7 @@ msgstr ""
 
 #: includes/admin/views/html-admin-page-status-report.php:404
 msgid "Active Plugins"
-msgstr ""
+msgstr "Aktivni vtičniki"
 
 #: includes/admin/views/html-admin-page-status-report.php:429
 msgid "Visit plugin homepage"
@@ -12416,7 +12510,7 @@ msgstr "To bo določilo število decimalnih mest za prikazane cene."
 
 #: includes/admin/views/html-admin-page-status-report.php:520
 msgid "API Enabled"
-msgstr ""
+msgstr "API omogočen"
 
 #: includes/admin/views/html-admin-page-status-report.php:521
 msgid "Does your site have REST API enabled?"
@@ -13892,7 +13986,7 @@ msgstr ""
 
 #: includes/api/class-wc-rest-product-attributes-controller.php:635
 msgid "Slug \"%s\" is too long (28 characters max)."
-msgstr "Naziv \"%s\" je predolg (max. 28 črk). Prosimo, skrajšajte."
+msgstr "Naziv \"%s\" je predolg (max. 28 črk). Skrajšajte ga."
 
 #: includes/api/class-wc-rest-product-attributes-controller.php:637
 msgid "Slug \"%s\" is not allowed because it is a reserved term."
@@ -16006,11 +16100,11 @@ msgstr "Geslo spletnega računa"
 #: includes/class-wc-checkout.php:256 includes/class-wc-checkout.php:269
 #: includes/class-wc-checkout.php:280 includes/class-wc-checkout.php:287
 msgid "Error %d: Unable to create order. Please try again."
-msgstr "Napaka: %d: Ni mogoče ustvariti naročilo. Prosimo poskusite znova."
+msgstr "Napaka: %d: Ni mogoče ustvariti naročilo. Poskusite ponovno."
 
 #: includes/class-wc-checkout.php:356
 msgid "We were unable to process your order, please try again."
-msgstr "Nismo poslali Vaše naročilo. Prosimo poskusite pozneje."
+msgstr "Nismo poslali Vaše naročilo. Poskusite ponovno."
 
 #: includes/class-wc-checkout.php:369
 msgid ""
@@ -16043,7 +16137,7 @@ msgstr "Naše pogoje poslovanja morate sprejeti."
 
 #: includes/class-wc-checkout.php:569
 msgid "Please enter an address to continue."
-msgstr "Prosimo, vnesite naslov za nadaljevanje."
+msgstr "Vnesite naslov za nadaljevanje."
 
 #: includes/class-wc-checkout.php:571
 msgid ""
@@ -16516,7 +16610,7 @@ msgstr "Noben izdelek ne ustreza vaši izbiri. Izberite drugačno kombinacijo."
 #: includes/class-wc-frontend-scripts.php:324
 msgid ""
 "Please select some product options before adding this product to your cart."
-msgstr "Prosimo, izberite možnosti izdelka, ki ga želite dodati v košarico."
+msgstr "Izberite možnosti izdelka, ki ga želite dodati v košarico."
 
 #: includes/class-wc-frontend-scripts.php:325
 #: templates/single-product/add-to-cart/variation.php:31
@@ -18335,8 +18429,8 @@ msgid ""
 "Thank you for your order, please click the button below to pay with credit "
 "card using Simplify Commerce by MasterCard."
 msgstr ""
-"Hvala za Vaše naročilo. Prosimo kliknite na gumb spodaj in plačajte s "
-"kreditno kartico prek Simplify Commerce by MasterCard sistema."
+"Hvala za Vaše naročilo. Kliknite na gumb spodaj in plačajte s kreditno "
+"kartico prek Simplify Commerce by MasterCard sistema."
 
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:646
 msgid "Pay Now"
@@ -19780,7 +19874,7 @@ msgid ""
 "Couldn&#8217;t register you&hellip; please contact us if you continue to "
 "have problems."
 msgstr ""
-"Ni vas bilo mogoče registrirati&hellip; V primeru ponovnih napak nas prosimo "
+"Ni vas bilo mogoče registrirati&hellip; V primeru ponovnih napak nas "
 "kontaktirajte."
 
 #: includes/wc-webhook-functions.php:23
@@ -20192,8 +20286,8 @@ msgid ""
 "There are some issues with the items in your cart (shown above). Please go "
 "back to the cart page and resolve these issues before checking out."
 msgstr ""
-"Obstaja nekaj težav z izdelki v vaši košarici (vidno zgoraj). Prosimo, da "
-"obiščete stran s košarico in odpravite težave pred zaključkom plačila."
+"Obstaja nekaj težav z izdelki v vaši košarici (vidno zgoraj). Obiščite stran "
+"s košarico in odpravite težave pred zaključkom plačila."
 
 #: templates/checkout/cart-errors.php:31
 msgid "Return To Cart"
@@ -20212,8 +20306,8 @@ msgid ""
 "Create an account by entering the information below. If you are a returning "
 "customer please login at the top of the page."
 msgstr ""
-"Ustvarite račun z vnosom podatkov spodaj. Če ste stalna stranka se prosimo "
-"prijavite na vrhu strani."
+"Ustvarite račun z vnosom podatkov spodaj. Če ste stalna stranka se prijavite "
+"na vrhu strani."
 
 #: templates/checkout/form-checkout.php:29
 msgid "You must be logged in to checkout."
@@ -20252,8 +20346,8 @@ msgid ""
 "location. Please contact us if you require assistance or wish to make "
 "alternate arrangements."
 msgstr ""
-"Na žalost ni na voljo nobenih možnosti plačila za vašo lokacijo. Prosimo, da "
-"nas kontaktirate, če želite dodatna pojasnila oz. imate vprašanje za nas."
+"Na žalost ni na voljo nobenih možnosti plačila za vašo lokacijo. "
+"Kontaktirate nas, če želite dodatna pojasnila oz. imate vprašanje za nas."
 
 #: templates/checkout/form-shipping.php:28
 msgid "Ship to a different address?"
@@ -20266,8 +20360,7 @@ msgid ""
 "arrangements."
 msgstr ""
 "Na žalost ne obstajajo metode dodajanja novih možnosti plačila za vašo "
-"državo. Prosimo, kontaktirajte nas, če potrebujete pomoč ali imate posebne "
-"zahteve."
+"državo. Kontaktirajte nas, če potrebujete pomoč ali imate posebne zahteve."
 
 #: templates/checkout/payment.php:35
 msgid "Please fill in your details above to see available payment methods."
